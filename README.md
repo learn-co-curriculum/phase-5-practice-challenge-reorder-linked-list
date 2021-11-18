@@ -7,6 +7,36 @@ in job interviews.
 
 ## Instructions
 
+In the starter code, you have been provided with a `LinkedList` class and a
+`Node` class. Add a method `#reorder_linked_list` to the `LinkedList` class that
+reorders the nodes in an instance of `LinkedList` such that all the nodes
+with odd positions come first, followed by the nodes with even positions.
+
+For example, given an instance `linked_list` that looks like this:
+
+![reorder-linked-list-before](https://curriculum-content.s3.amazonaws.com/phase-5/practice-challenge-reorder-linked-list/reorder-linked-list-before.png)
+
+If we call `linked_list.reorder_linked_list`, the result should look like this:
+
+![reorder-linked-list-after](https://curriculum-content.s3.amazonaws.com/phase-5/practice-challenge-reorder-linked-list/reorder-linked-list-after.png)
+
+Note that the reorder should be based on each node's **position** in the linked
+list, not its value.
+
+You should be able to write a solution to this problem with O(n) time complexity
+and O(1) extra space complexity.
+
+Remember the process:
+
+1. Rewrite the problem in your own words
+2. Write your own test cases
+3. Pseudocode
+4. Code
+5. Refactor to make it clean and readable
+6. Refactor to optimize
+
+Once you have a complete solution, run the test suite using `learn test` as a
+final check.
 
 ## Check Out the Solution
 
