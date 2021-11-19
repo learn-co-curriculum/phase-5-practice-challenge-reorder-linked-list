@@ -9,16 +9,28 @@ in job interviews.
 
 In the starter code, you have been provided with a `LinkedList` class and a
 `Node` class. Add a method `#reorder_linked_list` to the `LinkedList` class that
-reorders the nodes in an instance of `LinkedList` such that all the nodes
-with odd positions come first, followed by the nodes with even positions.
+reorders the nodes in an instance of `LinkedList` such that all the nodes with
+**odd** positions come first, followed by the nodes with **even** positions.
 
 For example, given an instance `linked_list` that looks like this:
 
 ![reorder-linked-list-before](https://curriculum-content.s3.amazonaws.com/phase-5/practice-challenge-reorder-linked-list/reorder-linked-list-before.png)
 
-If we call `linked_list.reorder_linked_list`, the result should look like this:
+If we call `linked_list.reorder_linked_list`, the linked list after being
+reordered should look like this:
 
 ![reorder-linked-list-after](https://curriculum-content.s3.amazonaws.com/phase-5/practice-challenge-reorder-linked-list/reorder-linked-list-after.png)
+
+Here's what that looks like in code:
+
+```rb
+head = Node.new(1, Node.new(2, Node.new(3, Node.new(4, Node.new(5)))))
+linked_list = LinkedList.new(head)
+# before reordering, linked_list is: 1 -> 2 -> 3 -> 4 -> 5
+
+linked_list.reorder_linked_list
+# after reordering, linked_list: 1 -> 3 -> 5 -> 2 -> 4
+```
 
 Note that the reorder should be based on each node's **position** in the linked
 list, not its value.
