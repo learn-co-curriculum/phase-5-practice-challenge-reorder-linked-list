@@ -1,4 +1,4 @@
-# Phase 5 Practice Challenge: Reorder Linked List
+# Practice Challenge: Reorder Linked List
 
 In this practice challenge, you will get an opportunity to use the Data
 Structures and Algorithms skills you have built over the course of the program.
